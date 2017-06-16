@@ -157,7 +157,7 @@
         name: '贺贤明',
         email: 'gakaki@qq.com',
         portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
-        blog: 'http://gakaki.com',
+        blog: 'http://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,
         job_title: '伪全栈工程师',
         year: `84年 天蝎座`,

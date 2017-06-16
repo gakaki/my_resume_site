@@ -17,7 +17,7 @@
           </li>
 
           <li>
-            <a href="tencent://message/?uin=529067725" class="btn"><img src="http://wpa.qq.com/pa?p=1:529067725:2" border=”0″></a>
+            <a :href="'tencent://message/?uin='  + qq " class="btn"><img :src="'http://wpa.qq.com/pa?p=1:' + qq + ':2'" border=”0″></a>
           </li>
 
           <li>
@@ -156,6 +156,7 @@
       return {
         name: '贺贤明',
         email: 'gakaki@qq.com',
+        qq: '82506111',
         portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
         blog: 'http://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,

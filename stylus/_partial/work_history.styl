@@ -1,0 +1,82 @@
+li_default_padding_left = 1rem
+
+default_line_offset()
+  padding-left li_default_padding_left
+  label:first-child
+    width 20%
+    display inline-block
+    color color_gray
+
+color_gray = #7f8c8d
+
+
+
+.history .company_time
+  padding 0.3rem 1rem 0rem 1.3rem
+  box-shadow 0 1px 2px rgba(0,0,0,0.125)
+  border-radius 4px
+  line-height 2.1em
+  vertical-align middle
+  background-color #f8f8f8
+  overflow-x auto
+  margin-bottom 1rem
+  text-align left
+
+.history
+  .company_time span,.company_time a
+    float left
+    display inline-block
+    text-align left
+    color color_gray
+
+  li
+    color #34495e
+    font-size 15px
+    line-height 2em
+    text-align left
+    list-style-type initial
+    word-wrap break-word
+    word-break normal
+    margin-bottom 1rem
+    default_line_offset()
+
+
+.history
+  .company_time
+    .time
+      width 20%
+    .company_name
+      width 40%
+    .job_title
+      width 39%
+      float right
+      text-align right
+
+.app_links li
+  padding-left li_default_padding_left
+  a
+    width 50%
+    display inline-block
+    color color_gray
+    line-height 2rem
+
+.skill li
+  default_line_offset()
+
+.edu span
+  default_line_offset()
+
+.target li
+  default_line_offset()
+
+
+.copyright
+  margin 4em 0
+  border-top 1px solid #ddd
+  text-align center
+  color color_gray
+  padding-top 1rem
+
+  a
+    color color_gray
+    padding 0 0.2rem

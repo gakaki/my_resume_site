@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add node-sass sass-loader stylus-loader less-loader --dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/openresty/luajit//bin:/Applications/Android Studio 3.0 Preview.app/Contents/gradle/gradle-4.0-milestone-1/bin:/usr/local/openresty//bin:/usr/local/openresty/nginx/bin:/usr/local/openresty/nginx/sbin:/Users/g/.cargo/bin:/usr/local/spark/bin:/usr/local/mongodb/bin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/openresty/luarocks/bin:/usr/local/go/bin:/Users/g/Desktop/work/GOPATH:/Users/g/Desktop/work/GOPATH/bin:/Users/g/.cargo/:/Users/g/android_sdk/platform-tools:/Users/g/android_sdk/tools:/Users/g/Desktop/work/flutter/bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  8.0.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "resume.gakaki",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "gakaki <gakaki@gmail.com>",
+    "private": true,
+    "dependencies": {
+      "nuxt": "latest"
+    },
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "eslint": "^3.15.0",
+      "eslint-config-standard": "^6.2.1",
+      "eslint-loader": "^1.6.1",
+      "eslint-plugin-html": "^2.0.0",
+      "eslint-plugin-promise": "^3.4.1",
+      "eslint-plugin-standard": "^2.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/g/Desktop/work/wxapp/gakaki.github.io/resume.gakaki/node_modules/acorn-dynamic-import'

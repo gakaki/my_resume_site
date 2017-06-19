@@ -183,9 +183,10 @@
         wechat: 'http://baidu.com',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '具有丰富的IOS开发经验,PHP后端开发经验,移动网页开发经验,对SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的IOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,对SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
+          'Node.js': '14年始',
           'TypeScript ES7': '16年始',
           'Python': '10年始',
           'Vue.js': '16年始',
@@ -250,8 +251,8 @@
             time_end: '17.06.15',
             job_title: '前技术负责人+ IOS高级软件研发工程师',
             job_desc: [
-              'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
               `组建四人团队(后端,前端H5,IOS)并成功在一个月内赶工完成,第一版'尖叫设计'App`,
+              'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
               'IOS客户端的代码 (Swift2.2编写),App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
               'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的thinkjs框架,并使用redis缓存数据,mongodb作为数据库',
               '管理AppStore的上架,审核,发布,fir.im持续集成.产品,设计和COO的协调工作',

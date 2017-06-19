@@ -73,7 +73,7 @@
       <!--联系方式-->
       <div class="contact">
         <ul>
-          <li  class="qrcode"> <a target="_blank" href='//qr.api.cli.im/qr?data=http%3A%2F%2Fu.wechat.com%2FEPKJXYozfIZw87OHLX5H5EQ&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=80601a83362325ef295aa2eeb796e1e8' title='在线二维码生成器'><img src='//oltk95zvf.bkt.clouddn.com/qrcode.png' alt='' /></a> </li>
+          <li  class="qrcode"> <a target="_blank" href='//qr.api.cli.im/qr?data=http%3A%2F%2Fu.wechat.com%2FEPKJXYozfIZw87OHLX5H5EQ&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=80601a83362325ef295aa2eeb796e1e8' title='在线二维码生成器'><img src='http://oltk95zvf.bkt.clouddn.com/qrcode.png' alt='' /></a> </li>
           <li> {{phone}} </li>
           <li> {{mail}} </li>
         </ul>
@@ -160,7 +160,7 @@
         portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
         blog: 'http://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,
-        job_title: '伪全栈工程师',
+        job_title: '救火工程师',
         year: `84年 天蝎座`,
         college_degree: `大专`,
         college_school: `上海托普信息技术学院`,

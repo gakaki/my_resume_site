@@ -95,7 +95,7 @@
         </div>
         <ul>
           <li v-for="(value, key, index) in value.job_desc">
-            {{value}}
+            {{key + 1}} .  {{value}}
           </li>
         </ul>
       </div>
@@ -238,7 +238,7 @@
             time_end: '17.06.15',
             job_title: '前技术负责人+ IOS高级软件研发工程师',
             job_desc: [
-              'PC网站端(PHP Magento)的统计代码,UI模板的修改以及后续维护',
+              'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
               `组建四人团队(后端,前端H5,IOS)并成功在一个月内赶工完成,第一版'尖叫设计'App`,
               'IOS客户端的代码 (Swift2.2编写),App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
               'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的thinkjs框架,并使用redis缓存数据,mongodb作为数据库',

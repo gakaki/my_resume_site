@@ -258,7 +258,7 @@
               'IOS App 组件化架构的调整与Cocoapods Cathrage Swift二进制化',
               '提议并执行了后端商品搜索的改造方案,采用Elasticsearch分词',
               '微信小程序的编写',
-              '与后端协商新网站后台管理页面架构,协商并采用React+AntDesign方案.'
+              '与后端协商新网站后台管理页面架构,协商并采用React+AntDesign方案.PC端网站和h5版本重构架构为 Vue全家桶方案 vue-router vuex ssr axios egg.js'
             ]
           },
           {

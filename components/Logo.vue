@@ -105,7 +105,7 @@
     <div class="app_links">
       <div class="block_title">项目App</div>
       <ul>
-        <li v-for="(val, key, index) in app_links">z
+        <li v-for="(val, key, index) in app_links">
           <a target="_blank" :href="val.link">{{val.name}}</a>
           <label>{{ val.desc }}</label>
         </li>

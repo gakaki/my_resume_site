@@ -14,6 +14,7 @@
   },
   "scripts": {
     "dev": "nuxt",
+    "deploy": "git add dist && git commit -m 'deploy dist subtree commit' && git subtree push --prefix dist origin master;",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",

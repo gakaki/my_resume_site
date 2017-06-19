@@ -251,7 +251,7 @@
               '曾遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的Lua Waf模块来防御',
               'IOS App 客户端 TalkingData和友盟的数据埋点 和 UniversalLink的部署与微信的交互',
               'H5微信与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互.',
-              'H5微信活动页面编写和功能实现,管理页面Vue element实现.',
+              'H5微信活动页面编写和功能实现,管理页面Vue.js 2.0 ElementUI 实现.',
               'App 海外购商品的抓取,三个网站分别使用GO csp并发,Python3.4 AsyncIO 与 PHP Swoole编写.',
               '有赞平台的 可视化数据抓取 (Selenium Nodejs WebIO 抓取). 有赞平台API抓取违禁词商品的查询与数据导出 (Nodejs 7 async youzan SDK )',
               '为提升Swift编译速度成功将公司I7台式机改造为黑苹果,提升编译打包速度30秒到1分钟不等',

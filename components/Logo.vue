@@ -259,7 +259,7 @@
               'PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',
               'Docker搭建Nexus库管理系统.编写Gradle SSH 脚本一键部署SpringBoot项目到服务器端.',
               '原网站PHP过渡到JAVA的数据迁移',
-              '参与新版IOS App(下属2人),经历Swift2.2到Swift4的语言变迁,并主导了Swift3的大重构',
+              '参与新版IOS App(下属2人),经历Swift2.2到Swift4的语言变迁,并主导了Swift3的大重构,参与新版IOS App(下属2人),现有项目Swift4 RxSwift响应式 组件二进制化进行中.',
               '曾遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的Lua Waf模块来防御',
               'IOS App 客户端 TalkingData和友盟的数据埋点 和 UniversalLink的部署与微信的交互',
               'H5微信与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互.',

@@ -95,7 +95,7 @@
         </div>
         <ul>
           <li v-for="(value, key, index) in value.job_desc">
-            {{key + 1}} .  {{value}}
+            <span v-if="is51job()">{{key + 1}} .</span>  {{value}}
           </li>
         </ul>
       </div>
@@ -105,7 +105,7 @@
     <div class="app_links">
       <div class="block_title">项目App</div>
       <ul>
-        <li v-for="(val, key, index) in app_links">
+        <li v-for="(val, key, index) in app_links">z
           <a target="_blank" :href="val.link">{{val.name}}</a>
           <label>{{ val.desc }}</label>
         </li>
@@ -152,6 +152,18 @@
 <script>
 
   export default {
+    methods: {
+      is51job: function () {
+        var res = this.$route.query['is51job']
+        if (res === 'true') return true
+        else return false
+      }
+    },
+    created: function () {
+      var is51job = this.is51job()
+      console.log('是否来自51job', is51job)
+    },
+
     data: () => {
       return {
         name: '贺贤明',
@@ -174,7 +186,7 @@
         desc: '具有丰富的IOS开发经验,PHP后端开发经验,移动网页开发经验,对SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
-          'TypeScript JSES7': '16年始',
+          'TypeScript ES7': '16年始',
           'Python': '10年始',
           'Vue.js': '16年始',
           'React': '16年始',
@@ -188,8 +200,8 @@
         target: {
           '期望工作': '技术负责人,IOS,Node全栈,前端负责人',
           '期望公司': '同样注重前端与UX的公司',
-          '期望薪资': '税前27k~34k/月',
-          '其他': '周六日双休'
+          '期望薪资': '税前27k~34k/月'
+//          '其他': '周六日双休'
         },
         poweredBy: {
           'Vue.js': 'https://vuejs.org',

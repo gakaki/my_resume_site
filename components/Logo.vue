@@ -33,13 +33,13 @@
           </li>
 
           <li>
-            <a class="btn btn-pdf" href="resume.pdf" target="_blank" download="潘峰个人简历.doc">
+            <a class="btn btn-pdf" href="resume.pdf" target="_blank" download="贺贤明的个人简历.pdf">
               Word
             </a>
           </li>
 
           <li>
-            <a class="btn btn-pdf" href="resume.pdf" target="_blank" download="潘峰个人简历.pdf">
+            <a class="btn btn-pdf" href="resume.pdf" target="_blank" download="贺贤明的个人简历.pdf">
               PDF
             </a>
           </li>

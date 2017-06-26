@@ -1,7 +1,7 @@
 {
   "publicPath": "/_nuxt/",
   "all": [
-    "0.nuxt.bundle.5ba348af43daa7ac21d7.js",
+    "0.nuxt.bundle.47aaff7eafbe0c681cd2.js",
     "fonts/iconfont.bff81ab.eot",
     "fonts/iconfont.26ea9cb.ttf",
     "fonts/iconfont.4e2f10f.woff",
@@ -11,16 +11,16 @@
     "1.nuxt.bundle.fe74a1ef22d501cfd651.js",
     "vendor.bundle.f46fcb0b326d6f028385.js",
     "nuxt.bundle.85e518d08caf4d6e32c7.js",
-    "manifest.5a1fc373b52ff578afb5.js",
+    "manifest.bb4848975bde2acd6924.js",
     "index.html"
   ],
   "initial": [
-    "manifest.5a1fc373b52ff578afb5.js",
+    "manifest.bb4848975bde2acd6924.js",
     "vendor.bundle.f46fcb0b326d6f028385.js",
     "nuxt.bundle.85e518d08caf4d6e32c7.js"
   ],
   "async": [
-    "0.nuxt.bundle.5ba348af43daa7ac21d7.js",
+    "0.nuxt.bundle.47aaff7eafbe0c681cd2.js",
     "1.nuxt.bundle.fe74a1ef22d501cfd651.js"
   ],
   "modules": {

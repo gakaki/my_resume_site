@@ -270,7 +270,7 @@
               '原网站PHP过渡到JAVA的数据迁移',
               '参与新版IOS App(下属2人),经历Swift2.2到Swift4的语言变迁,并主导了Swift3的大重构,参与新版IOS App(下属2人),现有项目Swift4 RxSwift响应式 组件二进制化进行中.',
               '曾遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的Lua Waf模块来防御.使用了Spark2.0 和 Python 来对nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
-              'IOS App 客户端 TalkingData和友盟的数据埋点 和 UniversalLink的部署与微信的交互',
+              'IOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
               'H5微信与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互.',
               'H5微信活动页面编写和功能实现,管理页面Vue.js 2.0 ElementUI 实现.',
               'App 海外购商品的抓取,三个网站分别使用GO csp并发,Python3.4 AsyncIO 与 PHP Swoole编写.',

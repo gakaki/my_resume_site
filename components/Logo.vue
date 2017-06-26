@@ -265,7 +265,7 @@
               'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的thinkjs框架,并使用redis缓存数据,mongodb作为数据库',
               '管理AppStore的上架,审核,发布,企业账号的申请发布,fir.im持续集成.产品,设计和COO的协调工作',
               '来了CTO之后',
-              'PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',
+              '提成和使用整站https和webp方案,PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',
               'Docker搭建Nexus库管理系统.编写Gradle 插件 SSH 脚本一键部署SpringBoot项目到服务器端.',
               '原网站PHP过渡到JAVA的数据迁移',
               '参与新版IOS App(下属2人),经历Swift2.2到Swift4的语言变迁,并主导了Swift3的大重构,参与新版IOS App(下属2人),现有项目Swift4 RxSwift响应式 组件二进制化进行中.',

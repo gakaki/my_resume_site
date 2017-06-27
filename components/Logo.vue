@@ -32,11 +32,11 @@
             </a>
           </li>
 
-          <li>
-            <a class="btn btn-pdf" href="贺贤明的个人简历.pdf" target="_blank" download="贺贤明的个人简历.pdf">
-              Word
-            </a>
-          </li>
+          <!--<li>-->
+            <!--<a class="btn btn-pdf" href="贺贤明的个人简历.pdf" target="_blank" download="贺贤明的个人简历.pdf">-->
+              <!--Word-->
+            <!--</a>-->
+          <!--</li>-->
 
           <li>
             <a class="btn btn-pdf" href="贺贤明的个人简历.pdf" target="_blank" download="贺贤明的个人简历.pdf">
@@ -262,7 +262,7 @@
               `组建四人团队(后端,前端H5,IOS)并成功在一个月内赶工完成,第一版'尖叫设计'App`,
               'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
               'IOS客户端的代码 (Swift2.2编写),App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
-              'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的thinkjs框架,并使用redis缓存数据,mongodb作为数据库',
+              'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的es7 thinkjs框架,并使用redis缓存数据,mongodb作为数据库',
               '管理AppStore的上架,审核,发布,企业账号的申请发布,fir.im持续集成.产品,设计和COO的协调工作',
               '来了CTO之后',
               '提成和使用整站https和webp方案,PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',

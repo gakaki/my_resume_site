@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "resume",
+    "script": "npm",
+    "args" : "start",
+    "cwd": "./",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "env": {
+
+    }
+  }]
+}

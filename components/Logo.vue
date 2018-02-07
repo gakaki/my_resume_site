@@ -21,7 +21,7 @@
           </li>
 
           <li>
-            <a class="btn btn-blog" :href="blog" target="_blank" >
+            <a class="btn btn-blog" :href="blog" target="_blank" style="display:none" >
               <i class="iconfont">&#xe60d;</i>
             </a>
           </li>
@@ -104,7 +104,7 @@
 
     <!--项目经历-->
     <div class="app_links">
-      <div class="block_title">项目App</div>
+      <div class="block_title">项目App(AppStore上还在的)</div>
       <ul>
         <li v-for="(val, key, index) in app_links">
           <a target="_blank" :href="val.link">{{val.name}}</a>
@@ -168,27 +168,30 @@
     data: () => {
       return {
         positionStatus: '离职正在找工作',
-        hope: '期望薪资 25k 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间',
+        hope: '期望薪资 24k 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间',
         name: '贺贤明',
         email: 'gakaki@qq.com',
         qq: '82506111',
         portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
         blog: 'http://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,
-        job_title: '伪全栈工程师',
+        job_title: '救火工程师',
         year: `84年 天蝎座`,
-        college_degree: `大专`,
+        college_degree: `大专`,//这里的一整块都是假的注释而已
         college_school: `上海托普信息技术学院`,
         college_end_time: `06年7月`,
         work_experience_year: `10年`,
         phone: `13621822254`,
         mail: '82506111@qq.com',
-        wechat: 'http://baidu.com',
+        wechat: 'gakaki',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '有丰富的IOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,对SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的IOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,半年大数据和自然语言处理经验.对后端微服务,大数据集成,前端的SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
+          'Go': '16年始',
+          'Kotlin': '17年始',
+          'Spark': '17年始',
           'Node.js': '14年始',
           'TypeScript ES7': '16年始',
           'Python': '10年始',
@@ -202,16 +205,17 @@
           'C#': '07年始'
         },
         target: {
-          '期望工作': '技术负责人,IOS,Node全栈,前端负责人',
+          '期望工作': '技术负责人,IOS,Node全栈,前端负责人,大数据,自然语言处理',
           '期望公司': '同样注重前端与UX的公司',
-          '期望薪资': '税前27k~34k/月'
+          '期望薪资': '税后24k/月'
 //          '其他': '周六日双休'
         },
         poweredBy: {
           'Vue.js': 'https://vuejs.org',
           'Nuxt.js': 'https://zh.nuxtjs.org',
           'Hexo-theme-apollo': 'https://github.com/pinggod/hexo-theme-apollo',
-          'Stylus': 'http://stylus-lang.com'
+          'Stylus': 'http://stylus-lang.com',
+          'Puppeteer': 'https://github.com/GoogleChrome/puppeteer',
         },
         app_links: [
           {
@@ -256,30 +260,31 @@
             company_name: '上海尖叫互动文化传媒有限公司',
             link: 'http://www.wowdsgn.com',
             time_start: '16.01.18',
-            time_end: '17.06.15',
-            job_title: '前技术负责人+IOS高级研发',
+            time_end: '18.02.06',
+            job_title: '前技术负责人+IOS高级研发+大数据和爬虫',
             job_desc: [
-              `组建四人团队(后端,前端H5,IOS)并成功在一个月内赶工完成,第一版'尖叫设计'App`,
+              
               'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
-              'IOS客户端的代码 (Swift2.2编写),App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
-              'IOS App 服务器端 API编写.阿里云服务器的运维部署.包括Nginx php Nodejs ,SSL Lets Encrypt.技术上采用支持async的es7 thinkjs框架,并使用redis缓存数据,mongodb作为数据库',
-              '管理AppStore的上架,审核,发布,企业账号的申请发布,fir.im持续集成.产品,设计和COO的协调工作',
-              '来了CTO之后',
+              `组建四人团队(后端,前端H5,IOS)并成功在一个月内上线尖叫设计IOS App`,
+                  '用Swift2.2编写了IOS客户端的代码,App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
+              'IOS服务器端API编写（NodeJS ES7 Async的Thinkjs框架）.阿里云部署 Nginx redis Nodejs mongodb,SSL化。',
+              'AppStore的上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。',
+              '来了CTO之后.',
               '提成和使用整站https和webp方案,PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',
-              'Docker搭建Nexus库管理系统.编写Gradle 插件 SSH 脚本一键部署SpringBoot项目到服务器端.',
-              '原网站PHP过渡到JAVA的数据迁移',
-              '参与新版IOS App(下属2人),经历Swift2.2到Swift4的语言变迁,并主导了Swift3的大重构,参与新版IOS App(下属2人),现有项目Swift4 RxSwift响应式 组件二进制化进行中.',
-              '曾遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的Lua Waf模块来防御.使用了Spark2.0 和 Python 来对nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
+              
+              'Docker搭建Nexus库管理.编写Gradle脚本一键部署SpringBoot项目.',
+              '原PC网站PHP过渡到JAVA的数据迁移',
+            '新版IOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和组件二进制化架构的调整（cocopods），加入RxSwift，和iPhoneX的适配。安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
+              '遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
               'IOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
-              'H5微信与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互.',
-              'H5微信活动页面编写和功能实现,管理页面Vue.js 2.0 ElementUI 实现.',
-              'App 海外购商品的抓取,三个网站分别使用GO csp并发,Python3.4 AsyncIO 与 PHP Swoole编写.',
-              '有赞平台的 可视化数据抓取 (Selenium Nodejs WebIO 抓取). 有赞平台API抓取违禁词商品的查询与数据导出 (Nodejs 7 async youzan SDK )',
-              '为提升Swift编译速度成功将公司I7台式机改造为黑苹果,提升编译打包速度30秒到1分钟不等',
-              'IOS App 组件化架构的调整与Cocoapods Cathrage Swift二进制化',
-              '提议并执行了后端商品搜索的改造方案,采用Elasticsearch分词',
-              '微信小程序的编写',
-              '与后端协商新网站后台管理页面架构,协商并采用React+AntDesign方案.PC端网站和h5版本重构架构为 Vue全家桶方案 vue-router vuex ssr axios egg.js'
+              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互',
+              `提议并执行了后端商品搜索的改造方案,采用Elasticsearch + IK 分词的搜索引擎方案替换原有的商品名模糊查询方案`,
+              `微信小程序的编写`,
+              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 vue-router vuex ssr axios`,
+              `之后重心转向大数据做推荐系统`,
+              '独自构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark structued streaming + Spark sql + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了Antdesign + Echarts + D3.js 展现用户可视化。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
+              '(爬虫题)APP内海外购专栏的商品数据同步到系统的任务（增加运营效率）, 分别用了1 Python (Anaconda 3.6) Scrapy+redis+国外ip代理库的分布式爬虫 2 Golang 语言的线程池（csp并发） crountine + channel + goquery 爬虫',
+              '(爬虫题)有赞平台的订单数据同步用了可视化数据抓取 NodeJS Pupuetter（用来替代PhantomJS） + NodeJS Cluster + Redis. 和违禁词商品的查询与数据导出 (Nodejs 7 async youzan SDK )',
             ]
           },
           {

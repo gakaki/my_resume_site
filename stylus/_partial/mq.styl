@@ -28,12 +28,80 @@ main.container
   width  mq-min-width
   margin 0 auto
 
+style_iphone_android()
+  .wrap_top_bar
+    width auto
+  .wrap
+    padding-left 1em
+    padding-right 1em
+    .header_bar
+      .avatar
+        width auto
+        float none
+      .desc
+        width auto
+        float none
+      .contact
+        width auto
+        float none
+        text-align center
+    .block_title
+      font-size 1.56em
+      text-align center
+    .work_historys 
+      .history
+        div.company_time
+          span.time
+            width auto
+            display block 
+            float none
+          a
+            display block
+            float none
+            width auto
+          span.job_title
+            display block
+            float none
+            width auto
+            text-align left
+        ul
+          list-style-position: inside;
+    div.app_links
+      li
+        a
+          display block
+          width auto
+        padding-bottom 1.2em
+    div.skill
+      li
+        label:first-child
+          width 40%
+    div.target
+      li
+        label
+          display block
+          width 85%
+        padding-bottom 1.2em
 
+
+@media only screen and (max-device-width: 47.999em)
+  style_iphone_android()
+
+  
 @media print
   .wrap
     width 100%
-    margin-top 0npmrem
+    padding-left 2em
+    padding-right 2em
+    margin-top 0 em
   .top_bar .nav
     float left
   .top_bar
     display none
+  
+  div.block_title
+    text-align left
+    font-size 1.7em
+
+  ul
+    list-style-position inside

@@ -15,3 +15,6 @@ npm-debug.log
 
 .log
 .idea/
+/yarn-error.log
+dist/_nuxt/*.*
+dist/_nuxt/

@@ -4,8 +4,9 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch()
   const page = await browser.newPage();
   const url  = 'http://127.0.0.1:3000'
-//   await page.setViewport({width: 1920, height: 1200})
-  await page.setViewport({width: 1024, height: 768})
+  await page.setViewport({width: 1024, height: 768 , deviceScaleFactor : 1})
+  // await page.setViewport({width: 800, height: 800, deviceScaleFactor: 1});
+
   await page.goto(url, {waitUntil: 'networkidle2'})
 
   await page.emulateMedia('print')

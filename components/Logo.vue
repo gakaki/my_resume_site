@@ -21,7 +21,7 @@
           </li>
 
           <li>
-            <a class="btn btn-blog" :href="blog" target="_blank" style="display:none" >
+            <a class="btn btn-blog" :href="blog" target="_blank" >
               <i class="iconfont">&#xe60d;</i>
             </a>
           </li>
@@ -45,7 +45,7 @@
           </li>
 
           <li>
-            <a class="btn btn-print" href="javascript:window.print()" target="_blank" >
+            <a class="btn btn-print" href="JAVAscript:window.print()" target="_blank" >
               <i class="iconfont">&#xe652;</i>
             </a>
           </li>
@@ -186,7 +186,7 @@
         wechat: 'gakaki',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '有丰富的IOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,半年大数据和自然语言处理经验.对后端微服务,大数据集成,前端的SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的iOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,半年的JAVA后端框架和大数据,自然语言处理经验.对微服务,大数据集成,前端SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
           'Go': '16年始',
@@ -205,7 +205,7 @@
           'C#': '07年始'
         },
         target: {
-          '期望工作': '技术负责人,IOS,Node全栈,前端负责人,大数据,自然语言处理',
+          '期望工作': '技术负责人,iOS,Node全栈,前端负责人,大数据,自然语言处理',
           '期望公司': '同样注重前端与UX的公司',
           '期望薪资': '税后24k/月'
 //          '其他': '周六日双休'
@@ -261,41 +261,41 @@
             link: 'http://www.wowdsgn.com',
             time_start: '16.01.18',
             time_end: '18.02.06',
-            job_title: '前技术负责人+IOS高级研发+大数据和爬虫',
+            job_title: '前技术负责人+iOS高级研发+大数据和爬虫',
             job_desc: [
               
-              'PC网站端 http://www.wowdsgn.com (PHP Magento)UI模板的修改以及后续维护',
-              `组建四人团队(后端,前端H5,IOS)并成功在一个月内上线尖叫设计IOS App`,
-                  '用Swift2.2编写了IOS客户端的代码,App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
-              'IOS服务器端API编写（NodeJS ES7 Async的Thinkjs框架）.阿里云部署 Nginx redis Nodejs mongodb,SSL化。',
+              'PC网站端 http://www.wowdsgn.com (PHP Magento)模板修改和后端功能维护',
+              `组建四人团队(后端,前端H5,iOS,Android)并成功在一个月内上线尖叫设计iOS App`,
+              `第一版的后端管理 使用 ES7 Async + Babel + Vue2 +Vuex 编写`,
+              '用Swift2.2编写了iOS客户端的代码,App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
+              '移动端iOS Android的后端API编写（Node.js ES7 Async的Thinkjs框架）.阿里云部署 Nginx redis Node.js mongodb,SSL化。',
               'AppStore的上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。',
-              '来了CTO之后.',
-              '提成和使用整站https和webp方案,PC网和移动端的图片的七牛迁移工作,编写脚本,HTTPS的申请,最终图片启用Webp格式(不支持的h5浏览器优雅降级jpg),优化网络传输.',
-              
+              '来了CTO之后. 工作重心转移为前端iOS和前端h5,微信h5和部分  后端JAVA Spring Boot Api(主要是搜索商品相关的部分)',
+              '提议并迁移了整站https化,将图片均迁移至七牛cdn转为Webp缩减体积(优化网络速度),编写迁移脚本(h5,后端).',
               'Docker搭建Nexus库管理.编写Gradle脚本一键部署SpringBoot项目.',
               '原PC网站PHP过渡到JAVA的数据迁移',
-            '新版IOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和组件二进制化架构的调整（cocopods），加入RxSwift，和iPhoneX的适配。安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
+              '新版iOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和组件二进制化架构的调整（cocopods），加入RxSwift，和iPhoneX的适配。安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
               '遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
-              'IOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
-              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与IOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互',
+              'iOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
+              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与iOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互',
               `提议并执行了后端商品搜索的改造方案,采用Elasticsearch + IK 分词的搜索引擎方案替换原有的商品名模糊查询方案`,
-              `微信小程序的编写`,
-              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 vue-router vuex ssr axios`,
-              `之后重心转向大数据做推荐系统`,
-              '独自构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark structued streaming + Spark sql + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了Antdesign + Echarts + D3.js 展现用户可视化。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
+              `使用wepy编写可 微信小程序(尖叫设计) `,
+              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 Vue-router Vuex SSR axios`,
+              `之后重心转向 JAVA大数据的 推荐系统`,
+              '独自构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark Structued Streaming + Spark Sql + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了Antdesign + Echarts + D3.js 展现用户可视化,Spring Boot MyBatis Druid后端Api。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
               '(爬虫题)APP内海外购专栏的商品数据同步到系统的任务（增加运营效率）, 分别用了1 Python (Anaconda 3.6) Scrapy+redis+国外ip代理库的分布式爬虫 2 Golang 语言的线程池（csp并发） crountine + channel + goquery 爬虫',
-              '(爬虫题)有赞平台的订单数据同步用了可视化数据抓取 NodeJS Pupuetter（用来替代PhantomJS） + NodeJS Cluster + Redis. 和违禁词商品的查询与数据导出 (Nodejs 7 async youzan SDK )',
+              '(爬虫题)有赞平台的订单数据同步用了可视化数据抓取 Node.js Pupuetter（用来替代PhantomJS） + Node.js Cluster + Redis. 和违禁词商品的查询与数据导出 (Node.js 7 Async youzan SDK )',
             ]
           },
           {
             company_name: '上海腾牛电子商务有限公司',
             link: 'http://www.niuhome.com',
-            job_title: 'IOS主程',
+            job_title: 'iOS主程',
             time_start: '2014.06',
             time_end: '2016.1',
             job_desc: [
               `研发和维护 '牛家帮'(用户端) 和 '小牛快跑' (骑手端),经历2.0到3.0 2个版本的迭代`,
-              '管理ios团队(下属2人)，并一起处理技术难题',
+              '管理iOS团队(下属2人)，并一起处理技术难题',
               '管理AppStore的上架,发布,fir.im持续集成',
               '使用Coding.net + Gitflow 的方式管理项目源码。',
               '学习新技术JSPatch和React Native来处理 项目的热更新问题',
@@ -308,35 +308,35 @@
           {
             company_name: '上海优伊网络科技有限公司',
             link: 'http://www.utang.cn',
-            job_title: 'IOS软件工程师',
+            job_title: 'iOS软件工程师',
             time_start: '2013.04',
             time_end: '2014.05',
             job_desc: [
               `研发和维护'U糖健康','U糖医师'经历2.0到4.0的迭代`,
-              '3.0 U糖盒子蓝牙模块与硬件设备的交互（血压仪，手环，尿检仪）,网页交互（处理html javascript与iphone交互）。制作的模块有尿检分析，日常，专家讲坛，活动专区优易品，服务中心等。使用到的库有:AFNetworking,SDWebImage，Mantle，JSONKIT。封装了一些基础库待下划线的Textfield，自定义的Segement控件等。',
+              '3.0 U糖盒子蓝牙模块与硬件设备的交互（血压仪，手环，尿检仪）,网页交互（处理html JAVAscript与iphone交互）。制作的模块有尿检分析，日常，专家讲坛，活动专区优易品，服务中心等。使用到的库有:AFNetworking,SDWebImage，Mantle，JSONKIT。封装了一些基础库待下划线的Textfield，自定义的Segement控件等。',
               '4.0 U糖盒子(openwrt命令与lua命令调用)，个人中心模块功能。（公告栏，关注亲友，切换账号，设置，收藏，引导页等功能）。4.0项目使用的库有： Masonry FLAnimatedImage ReactiveCocoa FMDB Reachability NMSSH JPushSDK'
             ]
           },
           {
             company_name: '上海益盟软件技术有限公司',
-            job_title: 'IOS中级开发工程师',
+            job_title: 'iOS中级开发工程师',
             link: 'http://www.emoney.cn',
             time_start: '2012.02',
             time_end: '2013.03',
             job_desc: [
               '研发和维护 益盟操盘手（宏源天游） iPad 版 这是一款股票类软件，涉及自定义ui，与后台数据库交互 和 自定义socket封包 方式 （ASIHTTPREQUEST+二进制流）。基本的图形Chart，线，饼图的绘制。',
-              '该软件主要使用的特性有新闻查看，用户登入,Tableview下拉刷新，文章图片内容的缓存,Controller控制多UiView.主要负责IPAD版本的维护和小功能添加。包括了新闻多级菜单，新闻列表，滚动跑马灯信息，聊天微信功能，我的自选功能，IOS版本适配等。'
+              '该软件主要使用的特性有新闻查看，用户登入,Tableview下拉刷新，文章图片内容的缓存,Controller控制多UiView.主要负责IPAD版本的维护和小功能添加。包括了新闻多级菜单，新闻列表，滚动跑马灯信息，聊天微信功能，我的自选功能，iOS版本适配等。'
             ]
           },
           {
             company_name: '上海商派SHOPEX网络科技',
             link: 'http://www.shopex.cn',
-            job_title: 'PHP研发工程 + IOS开发工程师',
+            job_title: 'PHP研发工程 + iOS开发工程师',
             time_start: '2008.02',
             time_end: '2012.02',
             job_desc: [
               '研发和维护 Shopex B2B B2C 产品,开发和Bug修复.新版本的ECOS的压力测试（libmemcached，tsung，多台Archlinux，mysql5.55beta）。使用Python 2.6 编写多线程的B2B平台与淘宝API的数据同步，用到了MySQL Q4M 消息队列 . 维护网店的B2C的功能 , 当时使用的技术架构 python 2.6 php 5.2 + mysql + q4m + sphinx +tokey tryant + mootools',
-              '研发和维护 （名鞋库S.cn)的 IOS App 软件编写 11年中旬，并与后端系统进行数据交互。前端包括用户注册，登入，订单详情，首页幻灯，产品分类，购物车，收藏夹，帮助等功能。项目使用了 ASIHTTPREQUEST，AFNETWORKING,PullToRefresh，SDWebImage，JSONKIT ,Fmdb购物车，友盟等库，这里开始使用ARC方式进行 编程.2 编写移动端API (后端也是个人完成) 相关的php json api接口，使用linux php nginx mysql redis的开发环境,对现有管易B2C系统的数据编写 API JSON接口 ，涉及到短信注册，商品数据列表，用户登入注册，收藏夹，购物车等功能。',
+              '研发和维护 （名鞋库S.cn)的 iOS App 软件编写 11年中旬，并与后端系统进行数据交互。前端包括用户注册，登入，订单详情，首页幻灯，产品分类，购物车，收藏夹，帮助等功能。项目使用了 ASIHTTPREQUEST，AFNETWORKING,PullToRefresh，SDWebImage，JSONKIT ,Fmdb购物车，友盟等库，这里开始使用ARC方式进行 编程.2 编写移动端API (后端也是个人完成) 相关的php json api接口，使用linux php nginx mysql redis的开发环境,对现有管易B2C系统的数据编写 API JSON接口 ，涉及到短信注册，商品数据列表，用户登入注册，收藏夹，购物车等功能。',
               `'私货' APP sihuo.com 参与制作研发二手物品交易平台。职责为：用户注册登入，拍照，好友交互关注 ，个人中心模块，和聊天界面，商品评论，商品列表展示的功能。聊天使用环信API.`
             ]
           },

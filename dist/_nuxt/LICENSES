@@ -1,9 +1,3 @@
-/*!
- * Vue.js v2.5.13
- * (c) 2014-2017 Evan You
- * Released under the MIT License.
- */
-
 /**
  * vuex v3.0.1
  * (c) 2017 Evan You
@@ -19,7 +13,7 @@
  */
 
 /**
- * vue-meta v1.4.2
+ * vue-meta v1.4.3
  * (c) 2018 Declan de Wet & Atinux
  * @license MIT
  */
@@ -29,3 +23,9 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */
+
+/*!
+ * Vue.js v2.5.13
+ * (c) 2014-2017 Evan You
+ * Released under the MIT License.
+ */

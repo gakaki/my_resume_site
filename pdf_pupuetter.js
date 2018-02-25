@@ -10,8 +10,8 @@ const puppeteer = require('puppeteer');
   await page.goto(url, {waitUntil: 'networkidle2'})
 
   await page.emulateMedia('print')
-  await page.screenshot({path: './static/贺贤明的个人简历.png',fullPage: true})
-  await page.pdf({path: './static/贺贤明的个人简历.pdf', format: 'A4', printBackground: true})
+  await page.screenshot({path: './dist/贺贤明的个人简历.png',fullPage: true})
+  await page.pdf({path: './dist/贺贤明的个人简历.pdf', format: 'A4', printBackground: true})
   await browser.close();
 })();
 

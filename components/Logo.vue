@@ -186,11 +186,13 @@
         wechat: 'gakaki',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '有丰富的iOS开发经验6年,PHP后端开发经验4年,移动网页开发经验,半年的JAVA后端框架和大数据,自然语言处理经验.对微服务,大数据集成,前端SPA,微信小程序,微信公众号开发以及前端模块化有深刻的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
           'Go': '16年始',
+          'JAVA': '16年始',
           'Kotlin': '17年始',
+          'SpringCloud': '17年始',
           'Spark': '17年始',
           'Node.js': '14年始',
           'TypeScript ES7': '16年始',
@@ -201,14 +203,13 @@
           'PHP': '08年始',
           'HTML JS CSS': '07年始',
           'GitHub': '09年始',
-          'JAVA Kotlin': '16年始',
           'C#': '07年始'
         },
         target: {
           '期望工作': '技术负责人,iOS,Node全栈,前端负责人,大数据,自然语言处理',
           '期望公司': '同样注重前端与UX的公司',
-          '期望薪资': '税后24k/月'
-//          '其他': '周六日双休'
+          '期望薪资': '税后24k/月',
+          '其他': '周六日双休'
         },
         poweredBy: {
           'Vue.js': 'https://vuejs.org',
@@ -261,28 +262,25 @@
             link: 'http://www.wowdsgn.com',
             time_start: '16.01.18',
             time_end: '18.02.06',
-            job_title: '前技术负责人+iOS高级研发+大数据和爬虫',
+            job_title: '前技术负责人+前端+JAVA后端+iOS高级研发+大数据和爬虫',
             job_desc: [
-              
-              'PC网站端 http://www.wowdsgn.com (PHP Magento)模板修改和后端功能维护',
-              `组建四人团队(后端,前端H5,iOS,Android)并成功在一个月内上线尖叫设计iOS App`,
-              `第一版的后端管理 使用 ES7 Async + Babel + Vue2 +Vuex 编写`,
-              '用Swift2.2编写了iOS客户端的代码,App相关第三方功能购买和整合.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
-              '移动端iOS Android的后端API编写（Node.js ES7 Async的Thinkjs框架）.阿里云部署 Nginx redis Node.js mongodb,SSL化。',
-              'AppStore的上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。',
-              '来了CTO之后. 工作重心转移为前端iOS和前端h5,微信h5和部分  后端JAVA Spring Boot Api(主要是搜索商品相关的部分)',
+              'wowdsgn.com (尖叫设计PC站点PHP到JAVA SSM架构的迁移和原网站维护',
+              `组建四人团队(我,前端H5,iOS,Android)并成功在一个月内上线尖叫设计iOS App`,
+              `使用 Node.js ES7 Async(Thinkjs框架) + Babel + Vue2 +Vuex 编写了移动端Api 和 后端管理界面以及管理功能`,
+              '用Swift2.2编写了iOS App的代码,第三方服务的集成.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
+              '阿里云部署 Nginx Redis Node.js mongodb,SSL化',
+              'AppStore企业账号申请,上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。',
+              '后端JAVA Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情等)',
               '提议并迁移了整站https化,将图片均迁移至七牛cdn转为Webp缩减体积(优化网络速度),编写迁移脚本(h5,后端).',
               'Docker搭建Nexus库管理.编写Gradle脚本一键部署SpringBoot项目.',
-              '原PC网站PHP过渡到JAVA的数据迁移',
-              '新版iOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和组件二进制化架构的调整（cocopods），加入RxSwift，和iPhoneX的适配。安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
-              '遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
+              '新版iOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和二进制化架构的调整,加入RxSwift，和iPhoneX的适配.部分页面用了Weex(活动页,我的界面部分).安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
+              '遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对Nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
               'iOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
-              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与iOS App交互功能开发,跳转下载,下载页面编写.活动页面与原生app交互',
+              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与iOS App交互功能开发,跳转下载和原生app交互',
               `提议并执行了后端商品搜索的改造方案,采用Elasticsearch + IK 分词的搜索引擎方案替换原有的商品名模糊查询方案`,
-              `使用wepy编写可 微信小程序(尖叫设计) `,
-              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 Vue-router Vuex SSR axios`,
-              `之后重心转向 JAVA大数据的 推荐系统`,
-              '独自构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark Structued Streaming + Spark Sql + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了Antdesign + Echarts + D3.js 展现用户可视化,Spring Boot MyBatis Druid后端Api。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
+              `使用wepy编写微信小程序(尖叫设计) `,
+              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 Vue-Router Vuex SSR axios`,
+              '构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark Structued Streaming + Spark SQL + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了AntDesign + Echarts + D3.js 展现用户可视化,Spring Boot MyBatis Druid后端Api。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
               '(爬虫题)APP内海外购专栏的商品数据同步到系统的任务（增加运营效率）, 分别用了1 Python (Anaconda 3.6) Scrapy+redis+国外ip代理库的分布式爬虫 2 Golang 语言的线程池（csp并发） crountine + channel + goquery 爬虫',
               '(爬虫题)有赞平台的订单数据同步用了可视化数据抓取 Node.js Pupuetter（用来替代PhantomJS） + Node.js Cluster + Redis. 和违禁词商品的查询与数据导出 (Node.js 7 Async youzan SDK )',
             ]
@@ -302,7 +300,7 @@
               '重构部分代码至Swift,现有项目中有40%由Swift编写,用到的类库有Alamofire SwiftUserDefaults JSONJoy-Swift Kingfisher Snap等.集成了微信，高德地图，友盟，支付宝支付，自定义环信聊天界面环信和极光推送,使用Cocospod导出二进制库供小牛快跑和牛家帮2个App一起使用。',
               '持续集成项目发布 Jenkins gitlab 到蒲公英',
               '环信系统的集成,自定义环信UI,环信与webview的交互',
-              '学习了JAVA的服务器端SpringMVC+MyBatis,并编写API接口3个月'
+              'JAVA的服务器端SpringMVC+MyBatis移动端接口API的编写(商品列表,订单列表,下单列表,保洁员端的下单,任务管理)'
             ]
           },
           {

@@ -265,7 +265,7 @@
             job_title: '技术负责人+前端+iOS高级研发',
             job_desc: [
               // `后端部分`,
-              `组建三人团队(我,后端,h5)并成功在一个月内上线尖叫设计iOS版`,
+              `组建4人团队(我,后端,h5,Android)并成功在一个月内上线尖叫设计iOS版`,
               `使用Node.js Async(Thinkjs框架)编写App Api`,
               '尖叫设计PC站(wowdsgn.com)从PHP重写为JAVA SSM架构Spring Boot MyBatis Druid',
               '重构移动端api为Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情,订单流程等)',

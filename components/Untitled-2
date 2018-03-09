@@ -1,0 +1,20 @@
+1. 组建三人团队(我,后端,h5)并成功在一个月内上线尖叫设计iOS版
+2. 使用Node.js Async(Thinkjs框架)编写App Api
+3. 尖叫设计PC站(wowdsgn.com)从PHP重写为JAVA SSM架构Spring Boot,MyBatis Plus
+4. 重构后端api为Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情,订单流程等)
+5. 阿里云部署和Docker化 Nginx Redis Node.js MySQL Mongodb,SSL化,Nexus jar库管理,Jenkins一键部署Gradle项目
+6. 迁移整站为https,图片迁移至七牛cdn转为Webp
+7. 商品搜索改造为Elasticsearch + IK分词方案
+8. 遭遇恶意短信攻击, 并使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对Nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.
+9. SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway进行中...',
+
+10. 用Swift2编写了App的代码,第三方服务的集成.技术上用到的有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp(支付),AVOSCloud,RongCloudIMKit.
+11. AppStore企业账号申请,上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。
+12. 和同事iOS开发,经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和二进制化架构的调整,加入RxSwift,部分页面用了Weex(活动页,我的界面部分).黑苹果提升打包速度.
+13. iOS客户端 TalkingData和友盟的数据埋点和Universal Link的部署
+
+14. H5微信活动页面编写,Vue.js ElementUI 实现管理功能.与原声交互功能开发,跳转App等
+15. 用wepy编写微信小程序(尖叫设计)
+16. 重构后台管理页面架构,采用了React+AntDesign方案. 与h5同事重构了PC端网站和h5移动版为React全家桶方案React+Router+Redux`,
+17. 构建了基于Spark的实时流商品推荐模块（用于app内。技术方案为 Spark Structued Streaming + Spark SQL + Spark Mlib （协同过滤）+ Kafka + TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了AntDesign + Echarts + D3.js 展现用户可视化,Spring Boot MyBatis Druid后端Api。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。
+18. (爬虫题) 分别用了1 Python (Anaconda 3.6) Scrapy+redis+国外ip代理库的分布式爬虫完成APP内'海外购'商品数据同步, 2 Golang 语言的线程池（csp并发） crountine + channel + goquery 爬虫 3 Node.js Pupuetter 爬取有赞商品pv uv

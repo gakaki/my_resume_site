@@ -261,28 +261,33 @@
             company_name: '上海尖叫互动文化传媒有限公司',
             link: 'http://www.wowdsgn.com',
             time_start: '16.01.18',
-            time_end: '18.02.06',
-            job_title: '前技术负责人+前端+JAVA后端+iOS高级研发+大数据和爬虫',
+            time_end: '18.02.09',
+            job_title: '技术负责人+前端+iOS高级研发',
             job_desc: [
-              'wowdsgn.com (尖叫设计PC站点PHP到JAVA SSM架构的迁移和原网站维护',
-              `组建四人团队(我,前端H5,iOS,Android)并成功在一个月内上线尖叫设计iOS App`,
-              `使用 Node.js ES7 Async(Thinkjs框架) + Babel + Vue2 +Vuex 编写了移动端Api 和 后端管理界面以及管理功能`,
-              '用Swift2.2编写了iOS App的代码,第三方服务的集成.技术上用到的库有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp,AVOSCloud,RongCloudIMKit.',
-              '阿里云部署 Nginx Redis Node.js mongodb,SSL化',
-              'AppStore企业账号申请,上架,审核,发布,fir.im持续集成。和产品,设计的工作协调。',
-              '后端JAVA Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情等)',
-              '提议并迁移了整站https化,将图片均迁移至七牛cdn转为Webp缩减体积(优化网络速度),编写迁移脚本(h5,后端).',
-              'Docker搭建Nexus库管理.编写Gradle脚本一键部署SpringBoot项目.',
-              '新版iOS(下属2人),经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和二进制化架构的调整,加入RxSwift，和iPhoneX的适配.部分页面用了Weex(活动页,我的界面部分).安装黑苹果台式机成功提升打包速度从5分钟降低到2分钟。',
-              '遭遇服务器恶意短信攻击, 并成功使用Redis和Openresty的LuaWaf模块防御。使用了Spark 对Nginx日志分析进行了重组和排序,找出对应的攻击ip并封锁.',
-              'iOS App 客户端 TalkingData和友盟的数据埋点 和 Universal Link的客户端服务器端部署与微信的交互',
-              'H5微信活动页面编写和功能实现,管理页面Vue.js ElementUI 实现.与iOS App交互功能开发,跳转下载和原生app交互',
-              `提议并执行了后端商品搜索的改造方案,采用Elasticsearch + IK 分词的搜索引擎方案替换原有的商品名模糊查询方案`,
-              `使用wepy编写微信小程序(尖叫设计) `,
-              `与后端协商新网站后台管理页面架构,采用了React+AntDesign方案. 与h5团队人员重构了PC端网站和h5移动版为Vue全家桶方案 Vue-Router Vuex SSR axios`,
-              '构建了基于Spark的实时流商品推荐系统（用于app内）和用户画像。技术方案为 Spark Structued Streaming + Spark SQL + Spark Mlib （协同过滤）+ Kafka + Hbase+ TIDB。 利用了NLP自然语言处理分析商品评价，用户画像标签，用到了 python NLTK ，结巴分词jieba 和 Keras + LSTM + 词向量情情感分析 和 Synonyms（近义词中文包）。该系统的前端使用了AntDesign + Echarts + D3.js 展现用户可视化,Spring Boot MyBatis Druid后端Api。 （桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
-              '(爬虫题)APP内海外购专栏的商品数据同步到系统的任务（增加运营效率）, 分别用了1 Python (Anaconda 3.6) Scrapy+redis+国外ip代理库的分布式爬虫 2 Golang 语言的线程池（csp并发） crountine + channel + goquery 爬虫',
-              '(爬虫题)有赞平台的订单数据同步用了可视化数据抓取 Node.js Pupuetter（用来替代PhantomJS） + Node.js Cluster + Redis. 和违禁词商品的查询与数据导出 (Node.js 7 Async youzan SDK )',
+              // `后端部分`,
+              `组建三人团队(我,后端,h5)并成功在一个月内上线尖叫设计iOS版`,
+              `使用Node.js Async(Thinkjs框架)编写App Api`,
+              '尖叫设计PC站(wowdsgn.com)从PHP重写为JAVA SSM架构Spring Boot MyBatis Druid',
+              '重构移动端api为Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情,订单流程等)',
+              '阿里云部署和Docker化 Nginx Redis Node.js MySQL Mongodb,SSL化,Nexus jar库管理,Jenkins一键部署Gradle项目',
+              '迁移整站为https,图片迁移至七牛cdn转为Webp',
+              `商品搜索改造为Elasticsearch + IK分词方案`,
+              '遭遇恶意短信攻击, 并使用Redis和Openresty的LuaWaf模块防御。使用Spark对Nginx日志分析重组和排序,找出攻击ip并封锁',
+              'SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway进行中...',
+
+              // `iOS部分`,
+              'Swift2编写了App代码,TalkingData和友盟的数据埋点和Universal Link的部署,极光推送的集成.技术上用到的有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp(支付),AVOSCloud,RongCloudIMKit.',
+              'AppStore企业账号申请,审核,发布,fir.im持续集成。和产品,设计的工作协调',
+              '和同事经历Swift2到Swift4的变迁,主导了Swift3的大重构,组件化和二进制化架构的调整,加入RxSwift,部分页面用了Weex(活动页,我的界面部分).黑苹果提升打包速度',
+
+              // `前端部分`,
+              'H5微信活动页面编写,Vue.js ElementUI 实现管理功能.与原声交互功能开发,跳转App等',
+              `用wepy编写微信小程序(尖叫设计)`,
+              `重构后台管理页面架构,采用了React+AntDesign方案. 与h5同事重构了PC端网站和h5移动版为React全家桶方案React+Router+Redux`,
+              
+              // `其他部分`,
+              '构建Spark实时流商品推荐模块（用于app内)技术方案为 Spark Streaming +Mlib+Kafka+TIDB。 用python NLTK ，结巴分词jieba 和 Keras + LSTM 和 Synonyms（近义词中文包）对商品进行舆情分析。前端使用Echarts + D3展现（桑吉图展示用户访问路径,词云展示用户画像属性，雷达图百分比展示等）。部署采用了Kubernetes + Docker + Harboar的容器方案',
+              `(爬虫题) APP内'海外购'商品数据同步.分别用了1 Python Scrapy+-redis+ip代理库 2 Golang crountine + channel + goquery 爬虫 3 Node.js Pupuetter`
             ]
           },
           {
@@ -292,7 +297,7 @@
             time_start: '2014.06',
             time_end: '2016.1',
             job_desc: [
-              `研发和维护 '牛家帮'(用户端) 和 '小牛快跑' (骑手端),经历2.0到3.0 2个版本的迭代`,
+              `研发和维护 '牛家帮'(用户端) 和 '小牛快跑' (保洁师端),经历2.0到3.0 2个版本的迭代`,
               '管理iOS团队(下属2人)，并一起处理技术难题',
               '管理AppStore的上架,发布,fir.im持续集成',
               '使用Coding.net + Gitflow 的方式管理项目源码。',
@@ -311,8 +316,8 @@
             time_end: '2014.05',
             job_desc: [
               `研发和维护'U糖健康','U糖医师'经历2.0到4.0的迭代`,
-              '3.0 U糖盒子蓝牙模块与硬件设备的交互（血压仪，手环，尿检仪）,网页交互（处理html JAVAscript与iphone交互）。制作的模块有尿检分析，日常，专家讲坛，活动专区优易品，服务中心等。使用到的库有:AFNetworking,SDWebImage，Mantle，JSONKIT。封装了一些基础库待下划线的Textfield，自定义的Segement控件等。',
-              '4.0 U糖盒子(openwrt命令与lua命令调用)，个人中心模块功能。（公告栏，关注亲友，切换账号，设置，收藏，引导页等功能）。4.0项目使用的库有： Masonry FLAnimatedImage ReactiveCocoa FMDB Reachability NMSSH JPushSDK'
+              '3.0 U糖盒子(openwrt命令与lua命令调用) 蓝牙模块与硬件设备的交互（血压仪，手环，尿检仪）,网页交互（处理html JAVAscript与iphone交互）。制作的模块有尿检分析，日常，专家讲坛，活动专区优易品，服务中心等。使用到的库有:AFNetworking,SDWebImage，Mantle，JSONKIT。封装了一些基础库待下划线的Textfield，自定义的Segement控件等。',
+              '4.0 U糖盒子(openwrt命令与lua命令调用) 个人中心模块功能。（公告栏，关注亲友，切换账号，设置，收藏，引导页等功能）。4.0项目使用的库有： Masonry FLAnimatedImage ReactiveCocoa FMDB Reachability NMSSH JPushSDK'
             ]
           },
           {

@@ -220,6 +220,7 @@
           'Puppeteer': 'https://github.com/GoogleChrome/puppeteer',
         },
         app_links: [
+          
           {
             name: `尖叫设计`,
             type: '家居电商',
@@ -266,15 +267,15 @@
             job_title: '后端负责人',
             job_desc: [
               // `后端部分`,
-              `共7人团队共同研发“点亮足迹”,"暑期去哪儿","",微信小程序(我,后端,h5,Android)并成功在一个月内上线尖叫设计iOS版`,
-              `使用Node.js Async(Thinkjs框架)编写App Api`,
-              '尖叫设计PC站(wowdsgn.com)从PHP重写为JAVA SSM架构Spring Boot MyBatis Druid',
-              '重构移动端api为Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情,订单流程等)',
-              '阿里云部署和Docker化 Nginx Redis Node.js MySQL Mongodb,SSL化,Nexus jar库管理,Jenkins一键部署Gradle项目',
-              '迁移整站为https,图片迁移至七牛cdn转为Webp',
-              `商品搜索改造为Elasticsearch + IK分词方案`,
-              '遭遇恶意短信攻击, 并使用Redis和Openresty的LuaWaf模块防御。使用Spark对Nginx日志分析重组和排序,找出攻击ip并封锁',
-              'SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway进行中...',
+              `主要工作为后端小程序研发.开发了事件系统,问答系统,新手引导等.负责服务器部署运维,持续集成,高并发处理.`,
+              `共7人团队共同研发"点亮足迹","暑期去哪儿"微信小程序(后端2人,前端h5 2人,策划2人美术1人 每周迭代发布`,
+              `后端架构为Node10 egg.js框架 es6 async,数据库环境pika(redis持久缓存)+redis(红包秒杀等)+mongodb2.6~mongodb4.0rc(阿里云)`,
+              `服务器运行环境腾讯云采用k8s+docker+nginx+mongodb2.6~4.0rc搭建负载均衡`,
+              `使用Let's Encrypt部署通配符ssl,nginx部署http2和负载均衡,使用imagemin Guetzli和渐进式优化jpg图像(ios),android启用webp优化图片和webm优化视频并部署cdn`,
+              'gitlab-runner 配合小程序api 搭建持续集成,分为测试版开发板体验版',
+              `使用swagger配合 golang armyant 和 python locust 对服务器进行压力测试,使用clusmy,fiddler,charles,facebook adc对小程序进行弱网络模拟测试.`,
+              `使用网易artiste编写自动化脚本测试常用流程,如新手流程,每周领取礼包`,
+              `编写测试平台方便测试员进行特定条件下的测试,使用react+antd搭建`
             ]
           },
           {
@@ -282,7 +283,7 @@
             link: 'http://www.wowdsgn.com',
             time_start: '16.01.18',
             time_end: '18.02.09',
-            job_title: '技术负责人+前端+iOS高级研发',
+            job_title: '技术负责人后端+前端+iOS高级研发',
             job_desc: [
               // `后端部分`,
               `组建4人团队(我,后端,h5,Android)并成功在一个月内上线尖叫设计iOS版`,
@@ -293,7 +294,7 @@
               '迁移整站为https,图片迁移至七牛cdn转为Webp',
               `商品搜索改造为Elasticsearch + IK分词方案`,
               '遭遇恶意短信攻击, 并使用Redis和Openresty的LuaWaf模块防御。使用Spark对Nginx日志分析重组和排序,找出攻击ip并封锁',
-              'SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway进行中...',
+              'SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway',
 
               // `iOS部分`,
               'Swift2编写了App代码,TalkingData和友盟的数据埋点和Universal Link的部署,极光推送的集成.技术上用到的有SnapKit,Moya,Rxswift,Objectmapper,Kinfisher,SDWebImage,UMeng,Talkingdata,MJRefresh,DZNEmptyDataSet,EZSwiftExtensions,HidingNavigationBar,YYImage,Pingpp(支付),AVOSCloud,RongCloudIMKit.',

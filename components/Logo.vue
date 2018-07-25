@@ -167,8 +167,8 @@
 
     data: () => {
       return {
-        positionStatus: '离职正在找工作',
-        hope: '期望薪资 24k 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间',
+        positionStatus: '在职寻找更好机会',
+        hope: '期望薪资 27~28k 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间',
         name: '贺贤明',
         email: 'gakaki@qq.com',
         qq: '82506111',
@@ -186,7 +186,7 @@
         wechat: 'gakaki',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发(h5,小程序），1年nodejs后端,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
           'Go': '16年始',
@@ -196,6 +196,7 @@
           'Spark': '17年始',
           'Node.js': '14年始',
           'TypeScript ES7': '16年始',
+          '微信小程序':'17年始',
           'Python': '10年始',
           'Vue.js': '16年始',
           'React': '16年始',
@@ -208,7 +209,7 @@
         target: {
           '期望工作': '技术负责人,iOS,Node全栈,前端负责人,大数据,自然语言处理',
           '期望公司': '同样注重前端与UX的公司',
-          '期望薪资': '税后24k/月',
+          '期望薪资': '税后27~28k/月',
           '其他': '周六日双休'
         },
         poweredBy: {
@@ -257,6 +258,25 @@
           }
         ],
         job_history: [
+          {
+            company_name: '上海豆子网络科技有限公司 ',
+            link: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzUwOTI4NjMyNA==&scene=124#wechat_redirect',
+            time_start: '18.03.26',
+            time_end: '至今',
+            job_title: '后端负责人',
+            job_desc: [
+              // `后端部分`,
+              `共7人团队共同研发“点亮足迹”,"暑期去哪儿","",微信小程序(我,后端,h5,Android)并成功在一个月内上线尖叫设计iOS版`,
+              `使用Node.js Async(Thinkjs框架)编写App Api`,
+              '尖叫设计PC站(wowdsgn.com)从PHP重写为JAVA SSM架构Spring Boot MyBatis Druid',
+              '重构移动端api为Spring Boot(SSM) Api(移动端Api首页,活动商品,商品列表,商品详情,es商品搜索,后台管理的商品列表,详情,订单流程等)',
+              '阿里云部署和Docker化 Nginx Redis Node.js MySQL Mongodb,SSL化,Nexus jar库管理,Jenkins一键部署Gradle项目',
+              '迁移整站为https,图片迁移至七牛cdn转为Webp',
+              `商品搜索改造为Elasticsearch + IK分词方案`,
+              '遭遇恶意短信攻击, 并使用Redis和Openresty的LuaWaf模块防御。使用Spark对Nginx日志分析重组和排序,找出攻击ip并封锁',
+              'SSM架构升级重构Spring Cloud(拆分为商品,用户,订单,评价服务),Spring Cloud Gateway进行中...',
+            ]
+          },
           {
             company_name: '上海尖叫互动文化传媒有限公司',
             link: 'http://www.wowdsgn.com',

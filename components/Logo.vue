@@ -166,16 +166,18 @@
     },
 
     data: () => {
+
+      let salary = `27~28k`
       return {
         positionStatus: '在职寻找更好机会',
-        hope: '期望薪资 27~28k 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间',
+        hope: `期望薪资 ${salary} 税后 正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间`,
         name: '贺贤明',
         email: 'gakaki@qq.com',
         qq: '82506111',
         portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
         blog: 'http://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,
-        job_title: '救火工程师',
+        job_title: '全栈工程师',
         year: `84年 天蝎座`,
         college_degree: `大专`,//这里的一整块都是假的注释而已
         college_school: `上海托普信息技术学院`,
@@ -186,7 +188,7 @@
         wechat: 'gakaki',
         address: '上海普陀',
         avatar: 'http://baidu.com/1.img',
-        desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发(h5,小程序），1年nodejs后端,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
+        desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发(H5,小程序)2年,Node.js后端半年,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
           'Go': '16年始',
@@ -209,8 +211,8 @@
         target: {
           '期望工作': '技术负责人,iOS,Node全栈,前端负责人,大数据,自然语言处理',
           '期望公司': '同样注重前端与UX的公司',
-          '期望薪资': '税后27~28k/月',
-          '其他': '周六日双休'
+          '期望薪资': `税后${salary}月`,
+          // '其他': '周六日双休'
         },
         poweredBy: {
           'Vue.js': 'https://vuejs.org',
@@ -274,7 +276,7 @@
               `使用Let's Encrypt部署通配符ssl,nginx部署http2和负载均衡,使用imagemin Guetzli和渐进式优化jpg图像(ios),android启用webp优化图片和webm优化视频并部署cdn`,
               'gitlab-runner 配合小程序api 搭建持续集成,分为测试版开发板体验版',
               `使用swagger配合 golang armyant 和 python locust 对服务器进行压力测试,使用clusmy,fiddler,charles,facebook adc对小程序进行弱网络模拟测试.`,
-              `使用网易artiste编写自动化脚本测试常用流程,如新手流程,每周领取礼包`,
+              `使用网易airtest编写自动化脚本测试常用流程,如新手流程,每周领取礼包`,
               `编写测试平台方便测试员进行特定条件下的测试,使用react+antd搭建`
             ]
           },

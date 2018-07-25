@@ -20,7 +20,7 @@
     }
   },
   "scripts": {
-    "dev": "HOST=0.0.0.0 PORT=3333 nuxtnuxt",
+    "dev": "HOST=0.0.0.0 PORT=3000 nuxt",
     "pdf": "node pdf_pupuetter.js",
     "build": "nuxt build",
     "start": "nuxt start",

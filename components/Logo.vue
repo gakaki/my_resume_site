@@ -6,9 +6,9 @@
       <div class="wrap_top_bar">
         <ul class="nav">
           
-          <li>
-            <a target="_blank" :href="'tencent://message/?uin='  + qq " class="btn"><img  alt="点击这里给我发消息" title="点击这里给我发消息" src="qqonline.gif" border="0" /></a>
-          </li>
+          <!-- <li>
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=82506111&site=qq&menu=yes" class="btn"><img  alt="点击这里给我发消息" title="点击这里给我发消息" src="qqonline.gif" border="0" /></a>
+          </li> -->
 
           <li>
             <a class="btn btn-print" href="JAVAscript:window.print()" target="_blank" >

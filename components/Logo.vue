@@ -5,38 +5,43 @@
       <!--个人信息 联系方式-->
       <div class="wrap_top_bar">
         <ul class="nav">
+          
+          
           <li>
-            <a class="btn" :href="'tel:' + phone" target="_blank" >
-              <i class="iconfont">&#x3490;</i>
+            <a :href="'tencent://message/?uin='  + qq " class="btn"><img :src="'https://wpa.qq.com/pa?p=1:' + qq + ':2'" border=”0″></a>
+          </li>
+
+
+          <li>
+            <a class="btn btn-print" href="JAVAscript:window.print()" target="_blank" >
+              <i class="iconfont">&#xe606;</i>
             </a>
           </li>
+
+         
           <li>
             <a class="btn" :href="'mailto:' + email" target="_blank" >
-              <i class="iconfont">&#xe665;</i>
-            </a>
-          </li>
-
-          <li>
-            <a :href="'tencent://message/?uin='  + qq " class="btn"><img :src="'http://wpa.qq.com/pa?p=1:' + qq + ':2'" border=”0″></a>
-          </li>
-
-          <li>
-            <a class="btn btn-blog" :href="blog" target="_blank" >
-              <i class="iconfont">&#xe60d;</i>
+              <i class="iconfont">&#xe6ab;</i>
             </a>
           </li>
 
           <li>
             <a class="btn" :href="github" target="_blank" >
-              <i class="iconfont">&#xe735;</i>
+              <i class="iconfont">&#xeaf6;</i>
             </a>
           </li>
 
-          <!--<li>-->
-            <!--<a class="btn btn-pdf" href="贺贤明的个人简历.pdf" target="_blank" download="贺贤明的个人简历.pdf">-->
-              <!--Word-->
-            <!--</a>-->
-          <!--</li>-->
+          <li>
+            <a class="btn" :href="'tel:' + phone" target="_blank" >
+              <i class="iconfont">&#xe631;</i>
+            </a>
+          </li>
+
+          <li>
+            <a class="btn btn-blog" :href="blog" target="_blank" >
+              BLOG
+            </a>
+          </li>
 
           <li>
             <a class="btn btn-pdf" href="贺贤明的个人简历.pdf" target="_blank" download="贺贤明的个人简历.pdf">
@@ -44,11 +49,6 @@
             </a>
           </li>
 
-          <li>
-            <a class="btn btn-print" href="JAVAscript:window.print()" target="_blank" >
-              <i class="iconfont">&#xe652;</i>
-            </a>
-          </li>
 
         </ul>
       </div>
@@ -74,7 +74,7 @@
       <!--联系方式-->
       <div class="contact">
         <ul>
-          <li  class="qrcode"> <a target="_blank" href='//qr.api.cli.im/qr?data=http%3A%2F%2Fu.wechat.com%2FEPKJXYozfIZw87OHLX5H5EQ&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=80601a83362325ef295aa2eeb796e1e8' title='在线二维码生成器'><img src='//assets/my_wechat_logo.png' alt='' /></a> </li>
+          <li  class="qrcode"> <a target="_blank" href='//qr.api.cli.im/qr?data=http%3A%2F%2Fu.wechat.com%2FEPKJXYozfIZw87OHLX5H5EQ&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=80601a83362325ef295aa2eeb796e1e8' title='在线二维码生成器'><img class="wechat_logo" src='my_wechat_logo.png' alt='我的微信二维码' /></a> </li>
           <li> {{phone}} </li>
           <li> {{mail}} </li>
         </ul>
@@ -84,64 +84,66 @@
       <div class="clearfix"></div>
     </div>
 
-    <!--工作经历-->
-    <div class="work_historys">
-      <div class="block_title">工作经历</div>
-      <div class="history" v-for="(value, key, index) in job_history">
-        <div class="company_time">
-          <span class="time">{{ value.time_start}} ~ {{value.time_end}}</span>
-          <a class="company_name" :href="value.link" target="_blank">{{ value.company_name }}</a>
-          <span class="job_title">{{ value.job_title }}</span>
-          <span class="clearfix"></span>
+    <div class="bottom_part">
+      <!--工作经历-->
+      <div class="work_historys">
+        <div class="block_title">工作经历</div>
+        <div class="history" v-for="(value, key, index) in job_history">
+          <div class="company_time">
+            <span class="time">{{ value.time_start}} ~ {{value.time_end}}</span>
+            <a class="company_name" :href="value.link" target="_blank">{{ value.company_name }}</a>
+            <span class="job_title">{{ value.job_title }}</span>
+            <span class="clearfix"></span>
+          </div>
+          <ul>
+            <li v-for="(value, key, index) in value.job_desc">
+              <span v-if="is51job()">{{key + 1}} .</span>  {{value}}
+            </li>
+          </ul>
         </div>
+      </div>
+
+      <!--项目经历-->
+      <div class="app_links">
+        <div class="block_title">项目App(AppStore上还在的)</div>
         <ul>
-          <li v-for="(value, key, index) in value.job_desc">
-            <span v-if="is51job()">{{key + 1}} .</span>  {{value}}
+          <li v-for="(val, key, index) in app_links">
+            <a target="_blank" :href="val.link">{{val.name}}</a>
+            <label>{{ val.desc }}</label>
+          </li>
+        </ul>
+      </div>
+
+      <!--技术栈-->
+      <div class="skill">
+        <div class="block_title">技术栈</div>
+        <ul>
+          <li v-for="(value, key, index) in skills">
+            <label>{{ key }}</label>
+            <label>{{ value }}</label>
+          </li>
+        </ul>
+      </div>
+
+      <!--教育经历-->
+      <div class="edu">
+        <div class="block_title">教育经历</div>
+        <span>{{college_degree}} ~ 毕业于{{college_end_time}} ~ {{college_school}}</span>
+      </div>
+      <div ></div>
+
+      <!--期望工作-->
+      <div class="target">
+        <div class="block_title">期望工作</div>
+        <ul>
+          <li v-for="(val, key) in target">
+            <label>{{ key }}</label>
+            <label>{{ val }}</label>
           </li>
         </ul>
       </div>
     </div>
-
-    <!--项目经历-->
-    <div class="app_links">
-      <div class="block_title">项目App(AppStore上还在的)</div>
-      <ul>
-        <li v-for="(val, key, index) in app_links">
-          <a target="_blank" :href="val.link">{{val.name}}</a>
-          <label>{{ val.desc }}</label>
-        </li>
-      </ul>
-    </div>
-
-    <!--技术栈-->
-    <div class="skill">
-      <div class="block_title">技术栈</div>
-      <ul>
-        <li v-for="(value, key, index) in skills">
-          <label>{{ key }}</label>
-          <label>{{ value }}</label>
-        </li>
-      </ul>
-    </div>
-
-    <!--教育经历-->
-    <div class="edu">
-      <div class="block_title">教育经历</div>
-      <span>{{college_degree}} ~ 毕业于{{college_end_time}} ~ {{college_school}}</span>
-    </div>
-    <div ></div>
-
-    <!--期望工作-->
-    <div class="target">
-      <div class="block_title">期望工作</div>
-      <ul>
-        <li v-for="(val, key) in target">
-          <label>{{ key }}</label>
-          <label>{{ val }}</label>
-        </li>
-      </ul>
-    </div>
-
+    
     <!--footer copyright-->
     <div class="copyright">
       © {{currentYear}} gakaki, powered by <a v-for="(val, key, index) in poweredBy" target="_blank" :href="val">{{key}}</a>
@@ -176,8 +178,8 @@
         name: '贺贤明',
         email: 'gakaki@qq.com',
         qq: '82506111',
-        portrait: 'https://avatars1.githubusercontent.com/u/5296?v=3&s=460',
-        blog: 'http://blog.gakaki.com',
+        portrait: 'avatar.jpg',
+        blog: 'https://blog.gakaki.com',
         github: `https://github.com/gakaki?tab=repositories`,
         job_title: '全栈工程师',
         year: `84年 天蝎座`,
@@ -189,7 +191,6 @@
         mail: '82506111@qq.com',
         wechat: 'gakaki',
         address: '上海普陀',
-        avatar: 'http://baidu.com/1.img',
         desc: '有丰富的开发经验 IOS(OC4年,Swift2年),PHP 4年,移动网页开发(H5,小程序)2年,Node.js后端半年,2年的JAVA后端(SSM),大数据.对微服务,微信开发以及前端模块化有较深入的理解,能够在项目中酌情选择编程语言更好的完成工作.能很好的使用技术驱动业务,并把控进度和风险.崇尚开放,自由分享的理念.拥有良好的技术视野和前瞻力.',
         skills: {
           'Swift': '15年始',
@@ -220,7 +221,7 @@
           'Vue.js': 'https://vuejs.org',
           'Nuxt.js': 'https://zh.nuxtjs.org',
           'Hexo-theme-apollo': 'https://github.com/pinggod/hexo-theme-apollo',
-          'Stylus': 'http://stylus-lang.com',
+          'Stylus': 'https://stylus-lang.com',
           'Puppeteer': 'https://github.com/GoogleChrome/puppeteer',
         },
         app_links: [
@@ -275,9 +276,9 @@
               `共7人团队共同研发"点亮足迹","暑期去哪儿"微信小程序(后端2人,前端h5 2人,策划2人美术1人 每周迭代发布`,
               `后端架构为Node10 egg.js框架 es6 async,数据库环境pika(redis持久缓存)+redis(红包秒杀等)+mongodb2.6~mongodb4.0rc(阿里云)`,
               `服务器运行环境腾讯云采用k8s+docker+nginx+mongodb2.6~4.0rc搭建负载均衡`,
-              `使用Let's Encrypt部署通配符ssl,nginx部署http2和负载均衡,使用imagemin Guetzli和渐进式优化jpg图像(ios),android启用webp优化图片和webm优化视频并部署cdn`,
+              `使用Let's Encrypt部署通配符ssl,nginx部署http2和负载均衡,使用imagemin Guetzli和渐进式优化jpg图像(iOS),Android启用webp优化图片和webm优化视频并部署cdn`,
               'gitlab-runner 配合小程序api 搭建持续集成,分为测试版开发板体验版',
-              `使用swagger配合 golang armyant 和 python locust 对服务器进行压力测试,使用clusmy,fiddler,charles,facebook adc对小程序进行弱网络模拟测试.`,
+              `使用swagger配合 golang armyant 和 python locust 对服务器进行压力测试,使用clusmy,Fiddler,Charles,Facebook ATC对小程序进行弱网络模拟测试.`,
               `使用网易airtest编写自动化脚本测试常用流程,如新手流程,每周领取礼包`,
               `使用后端Go语言Iris框架和TIDB数据库,前端MpVue编写了豆子游戏盒子微信小程序`,
               `编写测试平台方便测试员进行特定条件下的测试,使用react+antd搭建`

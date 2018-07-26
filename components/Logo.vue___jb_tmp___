@@ -144,7 +144,7 @@
 
     <!--footer copyright-->
     <div class="copyright">
-      © 2017 gakaki, powered by <a v-for="(val, key, index) in poweredBy" target="_blank" :href="val">{{key}}</a>
+      © {{currentYear}} gakaki, powered by <a v-for="(val, key, index) in poweredBy" target="_blank" :href="val">{{key}}</a>
     </div>
 
   </div>
@@ -169,7 +169,9 @@
 
       let salary = `32~33k 税前/月`
       let currentYear = new Date().getFullYear()
+      
       return {
+        currentYear:currentYear,
         positionStatus: '在职寻找更好机会',
         hope: `期望薪资 ${salary}  正常交金 正常情况下周六日不加班 如果是猎头请周六日和晚上安排面试吧 白天事情多..没法请假 ,要是每个都请假那现在也没法上班了...或者能否对方公司技术能先电话面试下。。在去实地面试，以节省双方时间`,
         name: '贺贤明',
@@ -384,5 +386,4 @@
       }
     }
   }
-</script>
-
+</sc

@@ -1,7 +1,7 @@
 <template>
   <div class="wrap">
 
-    <div class="top_bar" >
+    <div class="top_bar" style="display:none">
       <!--个人信息 联系方式-->
       <div class="wrap_top_bar">
         <ul class="nav">
